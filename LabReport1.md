@@ -32,10 +32,10 @@ Visual Studio for Windows relied a lot on COM technology and Windows specific AP
 # Trying Some Commands
 
 * Type in commands such as:
--`cd ~` - goes back to the root folder
--`cd` - change directory
--`ls -a` - lists files in directory
--`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` - copies a file
--`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` - concatenates files
+* `cd ~` - goes back to the root folder
+* `cd` - change directory
+* `ls -a` - lists files in directory
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` - copies a file
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` - concatenates files
 
 ![image](assets/TryingSomeCommands.png)
