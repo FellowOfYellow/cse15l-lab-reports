@@ -2,7 +2,7 @@
 
 * I downloaded VSCode from the website: [Link](https://code.visualstudio.com/download)
 * I clicked on the download SHEESH
-* For other IDES, the difference is described by Miljenko Cvjetko
+* For other IDES, the difference is described by Miljenko Cvjetko (Quote below):
 
 ""
 
@@ -32,12 +32,10 @@ Visual Studio for Windows relied a lot on COM technology and Windows specific AP
 # Trying Some Commands
 
 * Type in commands such as:
-cd ~
-cd
-ls -lat
-ls -a
-ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+`cd ~` - goes back to the root folder
+`cd` - change directory
+`ls -a` - lists files in directory
+`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` - copies a file
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` - concatenates files
 
 ![image](assets/TryingSomeCommands.png)
