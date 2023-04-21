@@ -64,7 +64,7 @@ The values of the returnedString changes from this specific request because when
 
 Before
 
-'''
+```
   static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
@@ -77,11 +77,11 @@ Before
     }
     return sum / (arr.length - 1);
   }
-'''
+```
 
 After
 
-'''
+```
 static double averageWithoutLowest(double[] arr) {
     if (arr.length < 2) {
       return 0.0;
@@ -102,13 +102,14 @@ static double averageWithoutLowest(double[] arr) {
     }
     return sum / (arr.length - 1);
   }
+```
 
 ### Briefly describe why the fix addresses the issue.
 
 The fix addresses the issue because the issue was because the way they excluded the lowest value. By using the code
-'''
+```
       if(num != lowest) { sum += num; }
-'''
+```
 they do not account for duplicates of the lowest number. So to fix it, I essentially added a count which prevented it from excluding more than one of the lowest numbers.
 
 ## Something I learned from lab in week 2 or 3
