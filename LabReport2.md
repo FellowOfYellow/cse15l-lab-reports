@@ -32,21 +32,85 @@ The values of the returnedString changes from this specific request because when
 
 # Part 2: Bug from lab3
 
-### A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+### A failure-inducing input for the buggy program
 
 ```
 
-@Test
-public void testAverageWithoutLowest2() {
-  double[] input1 = {5,5,10,10};
-  assertEquals((double)15, ArrayExamples.averageWithoutLowest(input1),0);
-}
+  @Test
+  public void testAverageWithoutLowest2() {
+    double[] input1 = {5,5,10,10};
+    assertEquals((double)15, ArrayExamples.averageWithoutLowest(input1),0);
+  }
 
 ```
 
-An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-Briefly describe why the fix addresses the issue.
+### An input that doesn’t induce a failure
 
+```
 
+  @Test
+  public void testAverageWithoutLowest2() {
+    double[] input1 = { 5,10};
+    assertEquals((double) 10, ArrayExamples.averageWithoutLowest(input1), 0);
+  }
+
+```
+
+### The symptom
+
+![image](assets/The-Symptoms.png)
+
+### Before & After
+
+Before
+
+'''
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+'''
+
+After
+
+'''
+static double averageWithoutLowest(double[] arr) {
+    if (arr.length < 2) {
+      return 0.0;
+    }
+    double lowest = arr[0];
+    for (double num : arr) {
+      if (num < lowest) {
+        lowest = num;
+      }
+    }
+    double sum = 0;
+    int count = 0;
+    for (double num : arr) {
+      if (num != lowest && count == 0) {
+        sum += num;
+        count++;
+      }
+    }
+    return sum / (arr.length - 1);
+  }
+
+### Briefly describe why the fix addresses the issue.
+
+The fix addresses the issue because the issue was because the way they excluded the lowest value. By using the code
+'''
+      if(num != lowest) { sum += num; }
+'''
+they do not account for duplicates of the lowest number. So to fix it, I essentially added a count which prevented it from excluding more than one of the lowest numbers.
+
+## Something I learned from lab in week 2 or 3
+
+I learned a lot from these labs such as running a locally hosted server, working with GitHub (cloning, forking, etc.), and adding code that reacts to the different user inputted URLs. Then for week 3, I learned how painful it is to debug and that Macs do not like running code for Windows.
