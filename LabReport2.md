@@ -113,4 +113,4 @@ they do not account for duplicates of the lowest number. So to fix it, I essenti
 
 ## Something I learned from lab in week 2 or 3
 
-I learned a lot from these labs such as running a locally hosted server, working with GitHub (cloning, forking, etc.), and adding code that reacts to the different user inputted URLs. Then for week 3, I learned how painful it is to debug and that Macs do not like running code for Windows.
+I learned a lot from these labs such as running a locally hosted server through running it both on my own laptop and on a remote server, working with GitHub (specifically cloning, forking, etc.), and adding code that reacts to the different user inputted URLs. Then for week 3, I learned how painful it is to debug and that Macs do not like running code for Windows.
