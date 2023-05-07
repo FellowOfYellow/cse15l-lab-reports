@@ -5,4 +5,3 @@
 # grep -e
 
 ![image](assets/grep_e)
-
