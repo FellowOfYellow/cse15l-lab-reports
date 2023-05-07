@@ -4,5 +4,5 @@
 
 # grep -e
 
-[image](grep_-e.png)
+![image](assets/grep_-e)
 
