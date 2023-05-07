@@ -1,4 +1,4 @@
-# Researching Commands - **"grep" command**
+# Researching Commands - grep
 
 
 
@@ -31,3 +31,9 @@
 ![image](assets/grep_i.png)
 
 ![image](assets/grep_i2.png)
+
+
+
+# Citation
+
+[link](https://man7.org/linux/man-pages/man1/grep.1.html)
