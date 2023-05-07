@@ -4,4 +4,4 @@
 
 # grep -e
 
-![image](assets/grep_e)
+![image](assets/grep_e.png)
