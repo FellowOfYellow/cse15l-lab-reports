@@ -12,6 +12,7 @@ Prompt: Log into ieng6
 
 Note: password would usually be needed, but it was set up in the lab where it automatically enters it
 
+
 ### Step 2
 Prompt: Clone your fork of the repository from your Github account
 
@@ -21,7 +22,9 @@ Lil fun thing, delete fork in terminal via rm -rf <name of file>
 
 **Runnin' The Code pt.2**
 
+![image](assets/Lab7pt2.png)
 
+  
 ### Step 3
 Prompt: Run the tests, demonstrating that they fail
 
@@ -31,7 +34,9 @@ Prompt: Run the tests, demonstrating that they fail
 
 **The Big Bad Error**
 
+![image](assets/Lab7pt3.png)
 
+  
 ### Step 4
 Prompt: Edit the code file to fix the failing test
 
@@ -47,6 +52,9 @@ Prompt: Edit the code file to fix the failing test
   
 **Runnin' The Code - the Sequel**
 
+![image](assets/Lab7pt4.png)
+  
+  
 ### Step 5
 Prompt: Run the tests, demonstrating that they now succeed
 
@@ -55,6 +63,9 @@ Prompt: Run the tests, demonstrating that they now succeed
 
 **All Fixed :D**
 
+![image](assets/Lab7pt5.png)
+  
+  
 ### Step 6
 Prompt: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
@@ -63,7 +74,8 @@ Prompt: Commit and push the resulting change to your Github account (you can pic
 
 **Committin'**
   
-
+![image](assets/Lab7pt6.png)
+  
   
 ### Extra - How to make goofy funny public keys
 1. ssh-keygen
