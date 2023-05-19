@@ -6,7 +6,7 @@ Prompt: Log into ieng6
 
 `ssh cs15lsp23nr@ieng6.ucsd.edu`
 
-[image](sheesh this is rad)
+[image](/assets/Lab7pt1.png)
 
 **Runnin' The Code pt.1**
 
