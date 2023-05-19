@@ -6,9 +6,9 @@ Prompt: Log into ieng6
 
 `ssh cs15lsp23nr@ieng6.ucsd.edu`
 
-[image](/assets/Lab7pt1.png)
-
 **Runnin' The Code pt.1**
+
+![image](assets/Lab7pt1.png)
 
 Note: password would usually be needed, but it was set up in the lab where it automatically enters it
 
