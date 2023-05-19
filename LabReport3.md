@@ -2,6 +2,8 @@
 
 **Grep Description** - print lines that match patterns
 
+
+
 # grep -e
 
 ![image](assets/grep_e.png)
@@ -12,6 +14,8 @@
                      multiple times or is combined with the -f (--file) option,
                      search for all patterns given.  This option can be used to
                      protect a pattern beginning with “-”.
+
+**The Significance** - -e signifies patterns. It is useful because without -e, grep might interpret the pattern as an option instead of a search pattern. So in general, its always good to use -e to avoid an error like this
 
 
 
@@ -25,6 +29,8 @@
                      lines for each input file.  With the -v, --invert-match
                      option (see above), count non-matching lines.
 
+**The Significance** - -e signifies patterns. It is useful because without -e, grep might interpret the pattern as an option instead of a search pattern. So in general, its always good to use -e to avoid an error like this
+
 
 
 # grep -v
@@ -36,6 +42,8 @@
 **-v Description** - Invert the sense of matching, to select non-matching
                      lines.
 
+**The Significance** - -c signifies count. It is useful because instead of manually counting how many lines a file has, you can just use -c in grep to automatically count it. This can be useful if you were trying to figure out how many times a specific word was said if you add an argument after grep (such as "and")
+
 
 
 # grep -i
@@ -46,6 +54,8 @@
 
 **-i Description** - Ignore case distinctions in patterns and input data, so
                      that characters that differ only in case match each other.
+                     
+**The Significance** - -c signifies ignore case. It is useful if you are trying to find how many times a specific word is being said regardless of it is uppercase or lowercase. Perhaps you are checking a doc for how many times it says "the" and you also want to count it when it is at the start of a sentence and is "The" instead of "the".
 
 
 
