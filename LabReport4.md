@@ -32,6 +32,8 @@ Prompt: Run the tests, demonstrating that they fail
 `javac ListExamples.java`
 `java ListExamples`
 
+Note: a faster way to do this is put all three of these commands into a test.sh file where you can just run the file to run the three commands instead of all three commands individually.
+
 **The Big Bad Error**
 
 ![image](assets/Lab7pt3.png)
@@ -41,7 +43,7 @@ Prompt: Run the tests, demonstrating that they fail
 Prompt: Edit the code file to fix the failing test
 
 `vim ListExamples.java`
-`j` x3
+`jjj`
 `i`
 `public static void main(String[] args){`
 `[enter]`
