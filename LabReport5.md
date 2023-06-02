@@ -2,17 +2,19 @@
 
 ### Student Question
 
-![image](assets/Student.png)
+![image](assets/TheCode.png)
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
-Mac, bash
+Mac, M1, eclipse, junit
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-Code is not running because it does not exist. This is git containing all the files:
+The code is returning 10 when it should be returning 13 for the heap. The input in the method is the 4th largest value.
 
-![image](assets/Files.png)
+<n>The Test</n>
+
+![image](assets/TheTest.png)
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
