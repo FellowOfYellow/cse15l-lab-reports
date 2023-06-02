@@ -53,3 +53,9 @@ It seems like the bug was forgetting K - 1 for the bound (second argument) in th
 **A description of what to edit to fix the bug**
 
 To fix the bug, I added - 1 to bound K (second argument for the for loop) on line 56
+
+
+
+# Reflection
+
+One of the things I learned from my lab experience in the second half of the quarter was VIM. I had a lot of fun working with it and exploring the hotkeys. I'm very much an efficiency lover so this section tickled my fancy. I also started messing around with the customizations and I think I'll try exploring a little more this summer and perhaps use it for future CSE classes, who knows! Also, thank you TAs for helping me use VIM without my escape key lol, it broke so they taught me an alternative.
